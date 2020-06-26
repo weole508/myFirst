@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.smbms.dao.provider.ProviderMapper">
+    <!--查询所有供应商-->
+    <resultMap id="providerList" type="Provider">
+        <result property="id" column="id"></result>
+        <result property="proCode" column="proCode"></result>
+        <result property="proName" column="proName"></result>
+        <result property="proDesc" column="proDesc"></result>
+        <result property="proContact" column="proContact"></result>
+        <result property="proPhone" column="proPhone"></result>
+        <result property="proAddress" column="proAddress"></result>
+        <result property="proFax" column="proFax"></result>
+        <result property="createdBy" column="createdBy"></result>
+        <result property="creationDate" column="creationDate"></result>
+        <result property="modifyDate" column="modifyDate"></result>
+        <result property="modifyBy" column="modifyBy"></result>
+        <result property="companyLicPicPath" column="companyLicPicPath"></result>
+        <result property="orgCodePicPath" column="orgCodePicPath"></result>
+    </resultMap>
+    <select id="getProviderList" resultMap="providerList">
+        select * from smbms_provider where delflag = '0'
+        <if test="proCode != null and proCode !=''">
+            and proCode like CONCAT('%',#{proCode},'%')
+        </if>
+        <if test="proName != null and proName !=''">
+            and proName like CONCAT('%',#{proName},'%')
+        </if>
+        order by creationDate DESC limit #{from},#{pageSize}
+    </select>
+    <!--获取所有供应商-->
+    <select id="getAllProvider" resultMap="providerList">
+        select * from smbms_provider
+    </select>
+    <!--查询供应商总数-->
+    <select id="getProviderCount" resultType="int">
+        select count(1) as count from smbms_provider  where id is not null
+        <if test="proCode != null and proCode !=''">
+            and proCode like CONCAT('%',#{proCode},'%')
+        </if>
+        <if test="proName != null and proName !=''">
+            and proName like CONCAT('%',#{proName},'%')
+        </if>
+    </select>
+    <!--添加供应商-->
+    <insert id="add" parameterType="Provider">
+        insert into smbms_provider(proCode,proName,proDesc,proContact,proPhone,proAddress,
+        proFax,createdBy,creationDate,modifyDate,modifyBy,companyLicPicPath,orgCodePicPath)
+        values (#{proCode},#{proName},#{proDesc},#{proContact},#{proPhone},
+        #{proAddress},#{proFax},#{createdBy},#{creationDate},#{modifyDate},#{modifyBy},#{companyLicPicPath},#{orgCodePicPath})
+    </insert>
+    <!--根据id获取供应商-->
+    <select id="getProviderById" resultMap="providerList">
+		select * from smbms_provider where id = #{id}
+	</select>
+    <!--更新供应商-->
+    <update id="modify" parameterType="Provider">
+        update smbms_provider
+        <trim prefix="set" suffixOverrides="," suffix="where id = #{id}">
+            <if test="proCode != null">proCode=#{proCode},</if>
+            <if test="proName != null">proName=#{proName},</if>
+            <if test="proDesc != null">proDesc=#{proDesc},</if>
+            <if test="proContact != null">proContact=#{proContact},</if>
+            <if test="proPhone != null">proPhone=#{proPhone},</if>
+            <if test="proAddress != null">proAddress=#{proAddress},</if>
+            <if test="proFax != null">proFax=#{proFax},</if>
+            <if test="createdBy != null">createdBy=#{createdBy},</if>
+            <if test="creationDate != null">creationDate=#{creationDate},</if>
+            <if test="modifyDate != null">modifyDate=#{modifyDate},</if>
+            <if test="modifyBy != null">modifyBy=#{modifyBy},</if>
+            <if test="companyLicPicPath != null">companyLicPicPath=#{companyLicPicPath},</if>
+            <if test="orgCodePicPath != null">orgCodePicPath=#{orgCodePicPath},</if>
+        </trim>
+    </update>
+    <!--删除供应商-->
+    <update id="deleteProviderById" parameterType="int">
+        update smbms_provider set delflag = '1' where id = #{id}
+    </update>
+</mapper>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.smbms.dao.role.RoleMapper">
+    <resultMap id="roleList" type="role">
+        <id property="id" column="id"></id>
+        <result property="roleCode" column="roleCode"></result>
+        <result property="roleName" column="roleName"></result>
+        <result property="createdBy" column="createdBy"></result>
+        <result property="creationDate" column="creationDate"></result>
+        <result property="modifyBy" column="modifyBy"></result>
+        <result property="modifyDate" column="modifyDate"></result>
+    </resultMap>
+    <!--查询角色列表-->
+    <select id="getRoleList" resultMap="roleList">
+        select * from smbms_role where delflag = '0'
+    </select>
+    <!--获取角色数量-->
+    <select id="getRoleCount" resultType="int">
+        select count(1) as count from smbms_role  where delflag = '0'
+    </select>
+    <!--添加角色-->
+    <insert id="add" parameterType="Role">
+        insert into smbms_role(roleCode,roleName,createdBy,creationDate)
+        values (#{roleCode},#{roleName},#{createdBy},#{creationDate})
+    </insert>
+    <!--根据角色编码获取角色-->
+    <select id="selectRoleCodeExist" resultType="Role">
+        select roleCode from smbms_role where roleCode = #{roleCode} and delflag = '0'
+    </select>
+    <!--修改角色-->
+    <update id="modify" parameterType="Role">
+        update smbms_role
+        <trim prefix="set" suffixOverrides="," suffix="where id = #{id}">
+            <if test="roleCode != null">roleCode=#{roleCode},</if>
+            <if test="roleName != null">roleName=#{roleName},</if>
+            <if test="modifyBy != null">modifyBy=#{modifyBy},</if>
+            <if test="modifyDate != null">modifyDate=#{modifyDate},</if>
+        </trim>
+    </update>
+    <!--删除角色-->
+    <update id="deleteRoleById" parameterType="int">
+        update smbms_role set delflag = '1' where id = #{id}
+    </update>
+    <!--根据id获取角色-->
+    <select id="getRoleById" resultMap="roleList">
+        select * from smbms_role where id = #{id} and delflag = '0'
+    </select>
+</mapper>

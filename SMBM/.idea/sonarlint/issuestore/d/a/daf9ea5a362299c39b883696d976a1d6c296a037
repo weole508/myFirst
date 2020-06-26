@@ -1,0 +1,7 @@
+
+Zsquid:S3752">Add a "method" parameter to this "@RequestMapping" annotation.(æœÇô˙ˇˇˇˇ
+Vsquid:S2441$":Make "User" serializable or don't store it in the session.(ö”ò¨˙ˇˇˇˇ
+]squid:S1192"FDefine a constant instead of duplicating this literal "login" 3 times.(Õ˝á«
+Zsquid:S37524">Add a "method" parameter to this "@RequestMapping" annotation.(•¿‘Ìˇˇˇˇˇ
+Usquid:S3752.">Add a "method" parameter to this "@RequestMapping" annotation.(¨ìêå
+asquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(±‡Ûﬂ

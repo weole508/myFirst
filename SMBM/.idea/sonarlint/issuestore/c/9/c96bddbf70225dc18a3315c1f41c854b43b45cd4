@@ -1,0 +1,50 @@
+
+dsquid:S1192ü"GDefine a constant instead of duplicating this literal "result" 4 times.(å±û¶øÿÿÿÿ
+@squid:S1148¸"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+nsquid:S1192¿"VDefine a constant instead of duplicating this literal "/statics/uploadfiles/" 4 times.(úñ²Ş
+@squid:S1148÷"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+fsquid:S1192 "IDefine a constant instead of duplicating this literal "userCode" 3 times.(òûÉ®üÿÿÿÿ
+Zsquid:S3752)">Add a "method" parameter to this "@RequestMapping" annotation.(œ í¬ıÿÿÿÿ
+_squid:S4488î"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(… â,
+`squid:S4488ö"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Âˆ«•
+gsquid:S4488Ï"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(‘øêúÿÿÿÿ
+fsquid:S4488n"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(´ı‡÷ûÿÿÿÿ
+>squid:S1075Û"&Remove this hard-coded path-delimiter.(Ñ§Ü
+`squid:S4488Ô"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(İ”£®
+isquid:S3776o"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(¾´Àÿ
+^squid:S3252Ñ"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+]squid:S2147È"ECombine this catch with the one at line 198, which has the same body.(”ı¾
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ
+[squid:S3752š">Add a "method" parameter to this "@RequestMapping" annotation.(äç‘«úÿÿÿÿ
+_squid:S4488i"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ßô†ê
+`squid:S4488¶"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(›ø³Õ
+Csquid:S1075Â"&Remove this hard-coded path-delimiter.(ÛÃ—äüÿÿÿÿ
+?squid:S1148^"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+_squid:S4488¾"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ê€X
+@squid:S1148Ì"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+`squid:S4488±"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ŞÜëÉ
+@squid:S1148”"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148É"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+^squid:S3252®"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+@squid:S1148°"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Vsquid:S3752‹">Add a "method" parameter to this "@RequestMapping" annotation.(¦–§‘
+@squid:S1148”"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148•"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+jsquid:S3776Ğ"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(ÛÏ¬ğ
+^squid:S2259º"FA "NullPointerException" could be thrown; "roleList" is nullable here.(ñäÏ
+]squid:S2147Í"ECombine this catch with the one at line 331, which has the same body.(”ı¾
+osquid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü®ı18Çúà‡ê-
+@squid:S1148Ç"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S2293ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ
+]squid:S2147ç"ECombine this catch with the one at line 357, which has the same body.(”ı¾
+bsquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(µü
+>squid:S1075½"&Remove this hard-coded path-delimiter.(Ñ§Ü
+^squid:S3252‡"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+?squid:S1148K"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Csquid:S1075à"&Remove this hard-coded path-delimiter.(ÛÃ—äüÿÿÿÿ
+gsquid:S1192Ã"JDefine a constant instead of duplicating this literal "delResult" 3 times.(ÁˆâÍûÿÿÿÿ
+@squid:S1148è"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S2293Á"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ

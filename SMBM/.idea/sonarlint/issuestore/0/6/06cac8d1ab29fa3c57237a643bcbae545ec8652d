@@ -1,0 +1,34 @@
+
+vsquid:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ
+^squid:S3252Ä"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+@squid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148u"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Zsquid:S3752d">Add a "method" parameter to this "@RequestMapping" annotation.(Ïá„»ıÿÿÿÿ
+Csquid:S1075”"&Remove this hard-coded path-delimiter.(åÛ…•ıÿÿÿÿ
+gsquid:S4488¡"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(‘øêúÿÿÿÿ
+osquid:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(²…±–ıÿÿÿÿ
+?squid:S1148w"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:S1192½"JDefine a constant instead of duplicating this literal "delResult" 3 times.(ÊÑÕ
+Zsquid:S3752(">Add a "method" parameter to this "@RequestMapping" annotation.(œ í¬ıÿÿÿÿ
+@squid:S1148¸"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+_squid:S4488i"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ßô†ê
+@squid:S1148Œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148º"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+`squid:S4488ˆ"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(›ø³Õ
+?squid:S1148Y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+msquid:S1192}"VDefine a constant instead of duplicating this literal "/statics/uploadfiles/" 4 times.(œ…Ñ÷
+Csquid:S1075€"&Remove this hard-coded path-delimiter.(åÛ…•ıÿÿÿÿ
+\squid:S2147v"ECombine this catch with the one at line 116, which has the same body.(”ı¾
+?squid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+]squid:S2147š"ECombine this catch with the one at line 152, which has the same body.(”ı¾
+@squid:S1148ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>squid:S1075"&Remove this hard-coded path-delimiter.(²â›³
+]squid:S2147¹"ECombine this catch with the one at line 311, which has the same body.(”ı¾
+=squid:S1075{"&Remove this hard-coded path-delimiter.(²â›³
+`squid:S4488®"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ı±£Æ
+_squid:S4488n"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(İ”£®
+gsquid:S4488é"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(´ı‡÷ûÿÿÿÿ
+@squid:S1148™"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+jsquid:S3776ê"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(—ª¡É

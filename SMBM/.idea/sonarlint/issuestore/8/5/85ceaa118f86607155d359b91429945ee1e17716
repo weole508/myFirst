@@ -1,0 +1,8 @@
+
+\squid:CallToDeprecatedMethodT"/Remove this use of "getYear"; it is deprecated.(¹ÆŒ£ûÿÿÿÿ
+^squid:HiddenFieldCheckT"7Rename "age" which hides the field declared at line 38.(¹ÆŒ£ûÿÿÿÿ
+‚squid:S2637:"k"userPassword" is marked "javax.validation.constraints.NotNull" but is not initialized in this constructor.(˜íƒó
+Csquid:S1068&"'Remove this unused "age" private field.(ù—ó¿úÿÿÿÿ
+wsquid:S1488T"[Immediately return this expression instead of assigning it to the temporary variable "age".(¹ÆŒ£ûÿÿÿÿ
+\squid:CallToDeprecatedMethodT"/Remove this use of "getYear"; it is deprecated.(¹ÆŒ£ûÿÿÿÿ
+_squid:S00107<"BConstructor has 13 parameters, which is greater than 7 authorized.(ÃÂØ’ÿÿÿÿÿ

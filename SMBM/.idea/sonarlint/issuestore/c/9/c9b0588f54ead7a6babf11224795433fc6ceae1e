@@ -1,0 +1,25 @@
+
+?squid:S1148x"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+_squid:S4488,"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ßô†ê
+_squid:S4488="HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(›ø³Õ
+Asquid:S1068"*Remove this unused "logger" private field.(´ªÛÁ
+usquid:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ
+?squid:S1148h"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[squid:S2147D"DCombine this catch with the one at line 66, which has the same body.(”ı¾
+?squid:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+usquid:S2293p"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ
+Zsquid:S3752m">Add a "method" parameter to this "@RequestMapping" annotation.(…õÙ¥øÿÿÿÿ
+^squid:S3252€"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+fsquid:S1192]"JDefine a constant instead of duplicating this literal "delResult" 3 times.(ÁˆâÍûÿÿÿÿ
+dsquid:S4488X"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ô°ùùÿÿÿÿ
+]squid:S3252k"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+?squid:S1148f"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+fsquid:S44880"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(´ı‡÷ûÿÿÿÿ
+fsquid:S4488K"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(‘øêúÿÿÿÿ
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+\squid:S2147g"ECombine this catch with the one at line 101, which has the same body.(”ı¾
+?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+`squid:S1192r"IDefine a constant instead of duplicating this literal "roleCode" 3 times.(–Ğ±Ø
+Zsquid:S3752!">Add a "method" parameter to this "@RequestMapping" annotation.(œ í¬ıÿÿÿÿ

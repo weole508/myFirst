@@ -1,0 +1,85 @@
+
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(æ™÷ıÿÿÿÿ
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(öüÌ¨ûÿÿÿÿ
+=squid:S2111?"!Use "BigDecimal.valueOf" instead.(çú¨Çÿÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(¡†®õùÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(î‰æ
+^squid:S1192."GDefine a constant instead of duplicating this literal "23.369" 4 times.(ó†­Å
+T
+squid:S106?"9Replace this use of System.out or System.err by a logger.(çú¨Çÿÿÿÿÿ
+]squid:CallToDeprecatedMethod#"0Remove this use of "setScale"; it is deprecated.(÷ğä«ıÿÿÿÿ
+_squid:CallToDeprecatedMethodD"2Remove this use of "ROUND_DOWN"; it is deprecated.(Êã–ûÿÿÿÿ
+_squid:CallToDeprecatedMethodC"2Remove this use of "ROUND_DOWN"; it is deprecated.(ò–¤Óûÿÿÿÿ
+Zsquid:CallToDeprecatedMethod6"2Remove this use of "ROUND_DOWN"; it is deprecated.(½»øÑ
+Ysquid:CallToDeprecatedMethod8"2Remove this use of "ROUND_DOWN"; it is deprecated.(Æ‚Æ=
+_squid:CallToDeprecatedMethod?"2Remove this use of "ROUND_DOWN"; it is deprecated.(çú¨Çÿÿÿÿÿ
+_squid:CallToDeprecatedMethod>"2Remove this use of "ROUND_DOWN"; it is deprecated.(öüÌ¨ûÿÿÿÿ
+^squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(î‰æ
+=squid:S2111?"!Use "BigDecimal.valueOf" instead.(çú¨Çÿÿÿÿÿ
+T
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ÕµÒÏúÿÿÿÿ
+_squid:CallToDeprecatedMethod="2Remove this use of "ROUND_DOWN"; it is deprecated.(æ™÷ıÿÿÿÿ
+=squid:S2111F"!Use "BigDecimal.valueOf" instead.(…’Şùÿÿÿÿ
+_squid:CallToDeprecatedMethod<"2Remove this use of "ROUND_DOWN"; it is deprecated.(•°›øÿÿÿÿ
+[squid:CallToDeprecatedMethod$".Remove this use of "divide"; it is deprecated.(«Œ¹úÿÿÿÿ
+O
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ß‹øÄ
+]squid:CallToDeprecatedMethod!"0Remove this use of "setScale"; it is deprecated.(ÉÖú°ûÿÿÿÿ
+Zsquid:CallToDeprecatedMethod7"2Remove this use of "ROUND_DOWN"; it is deprecated.(É“¡
+Zsquid:CallToDeprecatedMethod-"2Remove this use of "ROUND_DOWN"; it is deprecated.(ûÁä
+]squid:CallToDeprecatedMethod""0Remove this use of "setScale"; it is deprecated.(Â²¸Ğüÿÿÿÿ
+T
+squid:S106F"9Replace this use of System.out or System.err by a logger.(…’Şùÿÿÿÿ
+_squid:CallToDeprecatedMethodF"2Remove this use of "ROUND_DOWN"; it is deprecated.(…’Şùÿÿÿÿ
+O
+squid:S106."9Replace this use of System.out or System.err by a logger.(ó†­Å
+_squid:CallToDeprecatedMethod0"2Remove this use of "ROUND_DOWN"; it is deprecated.(ÌöïÃşÿÿÿÿ
+Zsquid:CallToDeprecatedMethod5"2Remove this use of "ROUND_DOWN"; it is deprecated.(ß‹øÄ
+?squid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(ò–¤Óûÿÿÿÿ
+N
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Æ‚Æ=
+=squid:S21111"!Use "BigDecimal.valueOf" instead.(¡†®õùÿÿÿÿ
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ã£×
+Zsquid:CallToDeprecatedMethodB"2Remove this use of "ROUND_DOWN"; it is deprecated.(­½§ò
+O
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ûÁä
+O
+squid:S106E"9Replace this use of System.out or System.err by a logger.(¤ÙÅ°
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‰æ
+_squid:CallToDeprecatedMethod4"2Remove this use of "ROUND_DOWN"; it is deprecated.(ÕµÒÏúÿÿÿÿ
+]squid:S1192."FDefine a constant instead of duplicating this literal "36.23" 4 times.(ó†­Å
+T
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ÌöïÃşÿÿÿÿ
+Zsquid:CallToDeprecatedMethod."2Remove this use of "ROUND_DOWN"; it is deprecated.(ó†­Å
+O
+squid:S1066"9Replace this use of System.out or System.err by a logger.(½»øÑ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+T
+squid:S106<"9Replace this use of System.out or System.err by a logger.(•°›øÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+O
+squid:S106B"9Replace this use of System.out or System.err by a logger.(­½§ò
+7squid:S21118"!Use "BigDecimal.valueOf" instead.(Æ‚Æ=
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü®Šù
+O
+squid:S1067"9Replace this use of System.out or System.err by a logger.(É“¡
+Zsquid:CallToDeprecatedMethod/"2Remove this use of "ROUND_DOWN"; it is deprecated.(ÁÕ…Å
+T
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Êã–ûÿÿÿÿ
+7squid:S21118"!Use "BigDecimal.valueOf" instead.(Æ‚Æ=
+=squid:S2111F"!Use "BigDecimal.valueOf" instead.(…’Şùÿÿÿÿ
+Zsquid:CallToDeprecatedMethodE"2Remove this use of "ROUND_DOWN"; it is deprecated.(¤ÙÅ°
+Xsquid:CallToDeprecatedMethod"0Remove this use of "setScale"; it is deprecated.(¬âæŠ
+_squid:CallToDeprecatedMethod1"2Remove this use of "ROUND_DOWN"; it is deprecated.(¡†®õùÿÿÿÿ
+=squid:S21111"!Use "BigDecimal.valueOf" instead.(¡†®õùÿÿÿÿ
+O
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ÁÕ…Å
+Zsquid:CallToDeprecatedMethod;"2Remove this use of "ROUND_DOWN"; it is deprecated.(ã£×
+]squid:CallToDeprecatedMethod"0Remove this use of "setScale"; it is deprecated.(‹›ŠÖşÿÿÿÿ

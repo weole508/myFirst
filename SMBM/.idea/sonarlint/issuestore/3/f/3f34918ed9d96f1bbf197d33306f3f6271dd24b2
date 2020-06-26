@@ -1,0 +1,29 @@
+
+@squid:S1148‹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148É"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+`squid:S4488Â"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(İ”£®
+_squid:S4488p"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ßô†ê
+@squid:S1148š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148c"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Zsquid:S3752(">Add a "method" parameter to this "@RequestMapping" annotation.(œ í¬ıÿÿÿÿ
+^squid:S3252¿"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Ûäİ
+esquid:S4488Ÿ"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(›éºÚûÿÿÿÿ
+vsquid:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÑ…¢úÿÿÿÿ
+psquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õöÁâ8äËŞ‡ê-
+gsquid:S1192±"JDefine a constant instead of duplicating this literal "delResult" 3 times.(ÁˆâÍûÿÿÿÿ
+?squid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+gsquid:S4488‘"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(‘øêúÿÿÿÿ
+?squid:S1148~"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148º"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+]squid:S2147Š"ECombine this catch with the one at line 136, which has the same body.(”ı¾
+@squid:S1148¼"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+]squid:S2147Ê"ECombine this catch with the one at line 200, which has the same body.(”ı¾
+]squid:S2147»"ECombine this catch with the one at line 185, which has the same body.(”ı¾
+isquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼³’‘
+@squid:S1148‰"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+fsquid:S4488u"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(´ı‡÷ûÿÿÿÿ
+`squid:S4488¬"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(£¶÷ã
+`squid:S4488ƒ"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(›ø³Õ
+bsquid:S2259¨"JA "NullPointerException" could be thrown; "providerList" is nullable here.(øù²å
+@squid:S1148Ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
